@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/Bg_Layard"
+tools:context=".MainActivity">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/Bg_logo"
+    tools:layout_editor_absoluteX="101dp"
+    tools:layout_editor_absoluteY="109dp" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="110dp"
+    android:text="MyKost"
+    android:textColor="@color/black"
+    android:textSize="40sp"
+    android:textStyle="bold"
+
+    tools:layout_editor_absoluteX="101dp"
+    tools:layout_editor_absoluteY="56dp" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="21dp"
+    android:text="Email"
+    android:textSize="15sp"
+    android:textColor="@color/black"
+    tools:layout_editor_absoluteX="66dp"
+    tools:layout_editor_absoluteY="282dp" />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/bg_line"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="302dp" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="password"
+    android:layout_marginLeft="21dp"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    tools:layout_editor_absoluteX="61dp"
+    tools:layout_editor_absoluteY="317dp" />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/Bg_line6"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="337dp" />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/Bg_Tombol"
+    tools:layout_editor_absoluteX="130dp"
+    tools:layout_editor_absoluteY="390dp" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="MASUK"
+    android:textColor="@color/black"
+    android:layout_marginLeft="170dp"
+    android:textSize="17sp"
+    android:textStyle="bold"
+    tools:layout_editor_absoluteX="153dp"
+    tools:layout_editor_absoluteY="390dp" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Lupa Password! DAFTAR"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:layout_marginLeft="126dp"
+    tools:layout_editor_absoluteX="181dp"
+    tools:layout_editor_absoluteY="421dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    android:back
